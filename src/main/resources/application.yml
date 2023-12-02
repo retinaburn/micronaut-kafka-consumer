@@ -1,0 +1,16 @@
+#Sat Dec 02 14:55:26 UTC 2023
+micronaut:
+  application:
+    name: publisher
+  server:
+    port: 8081
+kafka:
+  group: my-group
+  bootstrap:
+    servers: localhost:19092
+logger:
+  levels:
+    com.example: DEBUG
+
+topic:
+  chat: chat-room
